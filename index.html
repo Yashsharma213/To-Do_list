@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-Do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <div class="nav-logo"> 
+              <div class="logo border"></div>
+        </div> 
+    <div class="main_container">     
+        
+        <div class="box3 border">
+              <div class="raplit_logo"> <a href="https://replit.com/"><img src="raplit_logo.png"/></a> </div>
+        </div>
+        <div class="box4 border">
+              <div class="youtube_logo"> <a href="https://www.youtube.com/">
+                <img src="youtube_logo.png"/>
+              </a></div>
+        </div>
+    </div>
+    </div>    
+</header>
+<contant>
+    <div class="box2">
+        <div class="header">
+          <h2 style="margin:5px">To Do List</h2>
+          <input type="text" id="myInput" placeholder="Title...">
+          <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+    
+        <ul id="myUL">
+            <li>Yash sharma</li>
+            <li>Meet amin</li>
+            <li class="checked">Krupa chaudhri</li>
+            <li class="checked">Shweta singh</li>
+
+        </ul>
+        <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+    
+        <script src="script.js"></script>
+    </div>       
+</contant>
+</body>
+</html>
